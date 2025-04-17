@@ -1,4 +1,4 @@
-import { WeatherConditions } from "@/app/domain/interfaces/WeatherInterface";
+import { WeatherConditions } from "@/features/domain/interfaces/WeatherInterface";
 import { WeatherModel } from "../models/WeatherModel";
 import { fetchWeatherApi } from 'openmeteo';
 

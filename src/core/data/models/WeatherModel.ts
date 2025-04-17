@@ -1,4 +1,4 @@
-import { WeatherConditions, WeatherInterface } from "@/app/domain/interfaces/WeatherInterface";
+import { WeatherConditions, WeatherInterface } from "@/features/domain/interfaces/WeatherInterface";
 
 export class WeatherModel implements WeatherInterface {
     id: string;

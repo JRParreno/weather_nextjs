@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState } from "react";
-import { WeatherRepositoryImpl } from "../data/repository/WeatherRepositoryImpl";
-import { WeatherInterface } from "../domain/interfaces/WeatherInterface";
-import { WeatherRemoteDataSourceImpl } from "../data/datasource/WeatherRemoteDataSource";
+import { WeatherRepositoryImpl } from "../../features/data/repository/WeatherRepositoryImpl";
+import { WeatherInterface } from "../../features/domain/interfaces/WeatherInterface";
+import { WeatherRemoteDataSourceImpl } from "../../features/data/datasource/WeatherRemoteDataSource";
 
 export default function WeatherPage() {
     const [weather, setWeather] = useState<WeatherInterface | null>(null);

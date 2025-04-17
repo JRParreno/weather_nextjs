@@ -1,5 +1,5 @@
-import { WeatherInterface } from "@/app/domain/interfaces/WeatherInterface";
-import { WeatherRepository } from "@/app/domain/repository/WeatherRepository";
+import { WeatherInterface } from "@/features/domain/interfaces/WeatherInterface";
+import { WeatherRepository } from "@/features/domain/repository/WeatherRepository";
 import { WeatherRemoteDataSource } from "../datasource/WeatherRemoteDataSource";
 
 export class WeatherRepositoryImpl implements WeatherRepository {
